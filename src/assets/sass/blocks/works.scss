@@ -22,6 +22,9 @@
     display: flex;
     text-align: center;
 //    align-items: center;
+    @media (max-width: 828px) {
+        flex-wrap: wrap;
+    }
 }
 
 .step__item {
@@ -67,6 +70,9 @@
     font-weight: 400;
     color: $colorPriceTitle;
 
+    @media (max-width: 828px) {
+        padding: 0 50px;
+    }
 }
 
 

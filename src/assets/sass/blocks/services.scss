@@ -16,12 +16,26 @@
     display: flex;
     flex-wrap: wrap;
 
+    @media (max-width: 1280px) {
+        padding: 0 40px;
+    }
 }
 
 .service__item {
     width: 50%;
     display: flex;
+
+
     justify-content: space-between;
+
+    @media (max-width: 1023px) {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    @media (max-width: 567px) {
+        width: 100%;
+    }
 }
 
 /* item */
@@ -29,6 +43,11 @@
 .image {
     display: flex;
     justify-content: center;
+
+    @media (max-width: 1023px) {
+        width: 100%;
+        padding-bottom: 20px;
+    }
 }
 
 .item--img {

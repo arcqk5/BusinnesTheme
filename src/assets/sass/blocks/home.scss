@@ -22,6 +22,15 @@
 
     &--about {
         font-size: 30px;
+
+        @media (max-width:768px) {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+
+    @media (max-width:425px) {
+        font-size: 18px;
     }
 }
 
@@ -36,5 +45,46 @@
 
     &--about {
         text-transform: none;
+    }
+
+    @media (max-width:768px) {
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    @media (max-width:424px) {
+        padding: 0;
+        font-size: 12px;
+    }
+}
+
+.home__notebook {
+    width: 100%;
+}
+
+.notebook__inner {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+    position: relative;
+    text-align: center;
+
+    @media(max-width: 1320px) {
+        display: none;
+    }
+}
+
+.notebook--img {
+    &--book {
+    }
+
+    &--photobook {
+        position: absolute;
+        top: 19px;
+        left: 360px;
+        z-index: 1000;
+        width: 450px;
+        height: 260px;
     }
 }

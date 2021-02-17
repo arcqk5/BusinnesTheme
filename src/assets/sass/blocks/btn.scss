@@ -27,5 +27,13 @@
     &:hover {
         background-color: $buttonHover;
     }
+
+    &:focus {
+        outline: none;
+    }
+
+    @media (max-width: 1023px) {
+        padding: 10px 45px;
+    }
 }
 

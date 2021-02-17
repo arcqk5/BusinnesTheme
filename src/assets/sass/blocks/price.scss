@@ -23,6 +23,10 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 1280px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .plan__item {
@@ -66,7 +70,40 @@
         background-color: $backgroundHome;
         transform: scale(1.2);
     }
+
+    @media (max-width: 1280px) {
+        width: 50%;
+        max-width: 400px;
+
+        margin-bottom: 50px;
+
+    }
 }
+
+@media (max-width: 1280px) {
+    .plan__item:first-child {
+        margin-right: 70px;
+
+    }
+    .plan__item:last-child {
+        margin-bottom: 0;
+
+    }
+}
+
+@media (max-width: 968px) {
+    .plan__item {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .plan__item:first-child {
+        margin-right: 0;
+
+    }
+}
+
+
 
 .plan__title {
     padding: 0 0 30px;

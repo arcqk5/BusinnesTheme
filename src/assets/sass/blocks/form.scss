@@ -3,10 +3,25 @@
 
     display: flex;
     justify-content: center;
+
+    @media (max-width: 1023px) {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }
 
 .forms__item {
     margin-right: 10px;
+
+    @media (max-width: 1023px) {
+        margin: 0 0 14px;
+        width: 50%;
+        text-align: center;
+    }
+
+    @media (max-width: 567px) {
+        width: 100%;
+    }
 }
 
 .forms--input {
@@ -19,6 +34,10 @@
 
     border: 0px;
     border-radius: 2px;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .input--contact {
