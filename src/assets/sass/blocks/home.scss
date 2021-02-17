@@ -1,0 +1,40 @@
+.home {
+    width: 100%;
+
+    background-color: $backgroundHome;
+}
+
+.home__inner {
+    width: 100%;
+    padding: 110px 0 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__title {
+    font-family: inherit;
+    font-weight: bold;
+    color: $white;
+
+    text-transform: uppercase;
+
+    &--about {
+        font-size: 30px;
+    }
+}
+
+.home__subtitle {
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: $white;
+
+    text-transform: uppercase;
+
+    &--about {
+        text-transform: none;
+    }
+}

@@ -1,0 +1,146 @@
+.price {
+    width: 100%;
+    background-color: $backgroundPrice;
+}
+
+.price__inner {
+    width: 100%;
+    display: flex;
+    padding: 55px 0 130px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* plan */
+
+.plan {
+    width: 100%;
+}
+
+.plan__inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.plan__item {
+    width: 33.33334%;
+    max-width: 360px;
+
+    padding: 40px 30px;
+
+    background-color: $white;
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    transition: .8s;
+    &:hover {
+
+        & .plan__title {
+            color: white;
+        }
+
+        & .plan__subtitle {
+            color: white;
+        }
+
+        & .plan__price {
+            color: white;
+        }
+
+        & .plan__account {
+            color: white;
+        }
+
+        & .plan__hour {
+            color: white;
+        }
+
+        & .plan__services {
+            color: white;
+        }
+
+        background-color: $backgroundHome;
+        transform: scale(1.2);
+    }
+}
+
+.plan__title {
+    padding: 0 0 30px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: $colorPriceTitle;
+    text-transform: uppercase;
+}
+
+.plan__price {
+    font-size: 50px;
+    font-weight: 400;;
+    color: $button;
+//    text-transform: uppercase;
+}
+
+.plan__subtitle {
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13.5px;
+    font-weight: 400;
+    color: $colorPriceTitle;
+    text-transform: uppercase;
+}
+
+.plan__account {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13.5px;
+    font-weight: 400;
+    color: $colorPlan;
+    text-transform: uppercase;
+    border-top: 1px solid $colorPlan;
+}
+
+.plan__hour {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13.5px;
+    font-weight: 400;
+    color: $colorPlan;
+    text-transform: uppercase;
+    border-top: 1px solid $colorPlan;
+}
+
+.plan__services {
+    margin-top: 10px;
+    padding: 10px 0 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13.5px;
+    font-weight: 400;
+    color: $colorPlan;
+    text-transform: uppercase;
+    border-top: 1px solid $colorPlan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

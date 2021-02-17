@@ -1,0 +1,27 @@
+.forms {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.forms__item {
+    margin-right: 10px;
+}
+
+.forms--input {
+    font-family: inherit;
+    font-size: 13px;
+    padding: 10px 22px;
+    color: $forms;
+
+    display: inline-block;
+
+    border: 0px;
+    border-radius: 2px;
+}
+
+.input--contact {
+    border: 1px solid $HeaderColor;
+    padding-right: 65px;
+}

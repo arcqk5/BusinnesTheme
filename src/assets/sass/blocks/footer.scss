@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    background-color: $backgroundHome;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    &__text {
+        font-family: inherit;
+        font-size: 13px;
+        font-weight: 400;
+        color: $white;
+    }
+}

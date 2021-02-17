@@ -1,0 +1,52 @@
+@import "vars";
+
+
+html {
+    font-size: 13px;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Open Sans', sans-serif;
+//    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* Blocks */
+
+@import "blocks/header";
+@import "blocks/container";
+@import "blocks/nav";
+@import "blocks/home";
+@import "blocks/form";
+@import "blocks/btn";
+@import "blocks/homeSlider";
+@import "blocks/title";
+@import "blocks/services";
+@import "blocks/about";
+@import "blocks/price";
+@import "blocks/works";
+@import "blocks/clients";
+@import "blocks/contact";
+@import "blocks/footer";
+
+
+/* Vendor libs */
+@import "vendor/slick";
